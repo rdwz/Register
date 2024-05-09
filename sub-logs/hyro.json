@@ -1,11 +1,21 @@
 {
-    "repo": "https://github.com/xHyroM/xHyroM/tree/master/web",
+    "repo": "https://github.com/xhyrom/xhyrom/tree/builded-site",
+
     "owner": {
-        "username": "Hyro",
+        "username": "xHyroM",
         "email": "generalkubo@gmail.com"
     },
+
     "target": {
-        "CNAME": "hyro.pages.dev"
+        "CNAME": {
+            "name": "hyro",
+            "value": "cname.vercel-dns.com"
+        },
+        "TXT": {
+            "name": "_vercel",
+            "value": "vc-domain-verify=hyro.is-a-good.dev,4b1dc2289974c7842712"
+        }
     },
-    "proxied":false
+
+    "proxied": false
 }

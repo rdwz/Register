@@ -1,11 +1,15 @@
-{
-    "repo": "https://github.com/lucatolton",
+{   
     "owner": {
-        "username": "lucatolton",
-        "email": "hi@lucatolton.me"
+        "username": "DaPoyo / MrDaPoyo / 'Poyo",
+        "email": "wiiuforever25@gmail.com"
     },
-    "record": {
-        "A": "168.119.228.144"
+
+    "target": {
+        "CNAME": {
+            "name": "luca",
+            "value": "mrdapoyo.github.io"
+        }
     },
-    "proxied":false
+
+    "proxied": false
 }

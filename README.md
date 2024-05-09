@@ -1,35 +1,46 @@
-## ***is-a-good-dev***
+<p align="center"><img src="https://github.com/is-a-good-dev/register/blob/main/logo_circle.png" height="96" width="96"></p>
+<h1 align="center">is-a-good.dev</h1>
 
-A free subdomain provider for developers around the globe.
- 
-**Similar projects include:**
-- [is-a.dev](https://github.com/is-a-dev/register)
-- [js.org](https://github.com/js-org/js.org)
-- [thedev.id](https://github.com/fransallen/thedev.id)
+<p align="center">A free subdomain provider for developers around the globe.</p>
+<p align="center">Thanks to our <a href="#sponsors">sponsors</a> for keeping this project running.</p>
 
-### How to get your domain:
-- Fork [this](https://github.com/is-a-good-dev/Register) repository. 
-- Create a new file under the `sub-logs` directory.
-  - Name the file according to the sub-domain name that you would like, for example `will.json`
+## 2024 Update
 
-    *The file path and name should look somewhat similar to this: `sub-logs/example.json`*
-- Read the format documentation [here](https://docs.is-a-good.dev/format) to see the format you should be following.
-- Check over your file to make sure that everything looks right.
-- Make your pull request.
-- Check up on your pull request. Sometimes we will comment or add a new label, these can mean that you domain is unavailable or something is wrong with the file format. If this is the case, don't worry! You are still able to get a domain, but you may have to either change the file name or check over the file again.
-- Leave the rest down to us, we will make sure that the domain is sorted out.
-- Once your pull request has been merged, enjoy your subdomain. If you ever need to change the subdomain, don't hesitate to open a new pull request to change any of the details.
+**This project needs funding.** We are currently supporting the domain registration from our own money but as money gets tighter it becomes more of a struggle to keep this project running. Check back here for more updates regarding this issue. 
 
-### Errors:
+- In the near future, we are looking at creating a fresh new website to support this project. This website will feature a clean modern design with up to date information.
+- Domain purging will happen towards the end of this year in order to allow new people to get the subdomain they want. To stop your domain from being purged, make sure that you are using the domain. If yours does get purged and you would like it back, you will need to re-register the domain.
+
+## Register
+Please read the [documentation](https://docs.is-a-good.dev) to register a new domain manually.
+
+Or if you want to register a domain using your command line, you can check out our [CLI](https://github.com/is-a-good-dev/cli).
+
+---
+
 Your pull request **will not** be merged if:
 - You already own a subdomain on our service.
-- The records provided includes invalid/unpermitted record types. Should this happen we will notify you and request changes.
+- The records provided includes invalid/unpermitted record types. If this happens we will notify you and request changes.
+- It violates users privacy.
+- It uses Vercel or Netlify, as there are issues with subdomain verification. We hope to add support back soon.
 
-### Information
-- **[Documentation](https://docs.is-a-good.dev)**
+*If your subdomain is inactive, it may be purged. We will try and notify you before purging via the email you provided.*
 
-### Notice:
-If your subdomain is inactive, i.e not being actively used, it may be purged.
-We will try and notify you before purging via the email you provided. If no email is provided your subdomain will be purged without notice.
+## Sponsors
 
-**Please make sure that you fill in the relevant information on your pull request, we are currently operating this manually meaning it takes time to link the domains. Filling in the correct information just makes our lives that little bit easier.**
+### BlueFoxHost
+A new take on reliable and affordable hosting. BlueFoxHost provides stable services while maintaining efficient customer service.
+We currently offer Minecraft hosting, Discord Bot hosting, and Terraria hosting at affordable prices.
+Use the code: `STARTED20` for 20% off of your first month!
+
+- Website: [https://bluefoxhost.com](https://bluefoxhost.com)
+- Discord: [https://discord.gg/jzCDhUU7uH](https://discord.gg/jzCDhUU7uH)
+
+
+## Links
+- [Website](https://is-a-good.dev)
+- [Documentation](https://docs.is-a-good.dev)
+- [Discord Server](https://discord.gg/vmVaAn8YcK)
+
+### Similar Projects
+See [Free For Life](https://free.wdh.gg/#/?id=domains) for similar projects.
